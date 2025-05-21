@@ -11,7 +11,7 @@ Raspberry Pi とカメラモジュールを用いた、**子ども見守りカ�
 
 ## 🤩 Features / 特徴
 
-- 📷 ** Video Streaming / カメラ映像のストリーミング **
+- 📷 **Video Streaming / カメラ映像のストリーミング **
   - Real-time streaming using Flask, OpenCV, and Picamera2.
   - Flask + OpenCV + Picamera2 によりリアルタイム配信  
 
@@ -26,7 +26,7 @@ Raspberry Pi とカメラモジュールを用いた、**子ども見守りカ�
   - 通知音は `.mp3` をWeb UIからアップロード可能  
     
 
-- Web-Based Configuration / ⚙️ **Web UI での操作**
+- ⚙️ **Web-Based Configuration / Web UI での操作**
   - All parameters adjustable from a browser.
   - Responsive UI for smartphone compatibility.
   - すべての設定と通知方法をブラウザ上から調整可能
