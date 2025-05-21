@@ -11,30 +11,32 @@ Raspberry Pi とカメラモジュールを用いた、**子ども見守りカ�
 
 ## 🤩 Features / 特徴
 
-- 📷 **カメラ映像のストリーミング / Video Streaming**
+- 📷 ** Video Streaming / カメラ映像のストリーミング **
+  - Real-time streaming using Flask, OpenCV, and Picamera2.
   - Flask + OpenCV + Picamera2 によりリアルタイム配信  
-    Real-time streaming using Flask, OpenCV, and Picamera2.
 
-- 🧠 **動体検知機能 / Motion Detection**
+- 🧠 **Motion Detection / 動体検知機能**
+  - Detects movement such as rolling or waking.
   - 寝転りや起き上がりを検知して通知  
-    Detects movement such as rolling or waking.
-
-- 🔔 **通知システム / Notification System**
+    
+- 🔔 **Notification System** / 通知システム
+  - Alerts with sound and visual border changes.
+  - Supports uploading `.mp3` alert sounds via the web UI.
   - 音と画面の枠色で即時にアラート  
-    Alerts with sound and visual border changes.
   - 通知音は `.mp3` をWeb UIからアップロード可能  
-    Supports uploading `.mp3` alert sounds via the web UI.
+    
 
-- ⚙️ **Web UI での操作 / Web-Based Configuration**
-  - すべての設定と通知方法をブラウザ上から調整可能  
-    All parameters adjustable from a browser.
+- Web-Based Configuration / ⚙️ **Web UI での操作**
+  - All parameters adjustable from a browser.
+  - Responsive UI for smartphone compatibility.
+  - すべての設定と通知方法をブラウザ上から調整可能
   - スマホ表示にも対応したレスポンシブ設計  
-    Responsive UI for smartphone compatibility.
+    
 
-- ⚖️ **systemd による自動起動 / systemd Autostart**
-  - Raspberry Pi 起動時に自動でサーバ開始  
-    Server starts automatically on boot.
-
+- ⚖️ **systemd Autostart / systemd による自動起動**
+  - Server starts automatically on boot.
+  - Raspberry Pi 起動時に自動でサーバ開始
+    
 ---
 
 ## 📸 スクリーンショット / Screenshot
