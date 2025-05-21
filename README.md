@@ -98,16 +98,16 @@ http://raspberrypi.local:5000
 
 | 項目 / Parameter         | 説明 / Description                                 |
 |--------------------------|--------------------------------------------------|
-| Motion Threshold         | 動体検知のしきい値（感度） / Sensitivity threshold for motion detection |
-| Min Contour Area         | ノイズ除去のための最小面積 / Minimum area to detect an object     |
-| Reload Interval (sec)    | 設定の再読込間隔 / Auto reload interval for settings       |
-| 視覚通知（ON/OFF）       | 枠表示による通知 / Visual alert with screen border         |
-| 通知色 / Alert Color     | アラート表示色 / Color of the alert border               |
-| 通知音アップロード       | `.mp3` アップロード / Upload custom alert sound            |
+| Motion Threshold         | Sensitivity threshold for motion detection / 動体検知のしきい値（感度） |
+| Min Contour Area         | Minimum area to detect an object / ノイズ除去のための最小面積     |
+| Reload Interval (sec)    | Auto reload interval for settings / 設定の再読込間隔       |
+| 視覚通知（ON/OFF）       | Visual alert with screen border / 枠表示による通知         |
+| 通知色 / Alert Color     | Color of the alert border / アラート表示色               |
+| 通知音アップロード       | `.mp3` Upload custom alert sound / アップロード            |
 
 ---
 
-## 📁 ディレクトリ構成例 / Project Structure
+## 📁 Project Structure / ディレクトリ構成例
 
 ```
 project/
@@ -124,22 +124,15 @@ project/
 
 ---
 
-## 🔐 セキュリティ・注意事項 / Security Notes
-
-- 本システムはローカルネット用です  
-  This system is intended for local network use.
+## 🔐 Security Notes / セキュリティ・注意事項
+- This system is intended for local network use.
+- If exposing to the internet, implement HTTPS and authentication.
+- 本システムはローカルネット用です
 - 外部公開時は HTTPS やパスワード保護を適用してください  
-  If exposing to the internet, implement HTTPS and authentication.
-
----
-
-## 📜 ライセンス / License
-
-MIT License
 
 
 ---
 
-## 📜 ライセンス
+## 📜 License / ライセンス
 
 MIT License
