@@ -47,7 +47,7 @@ Raspberry Pi とカメラモジュールを用いた、**子ども見守りカ�
 ## 🚀 セットアップ方法（1行インストール） / Quick Install
 
 ```bash
-curl -sSL https://example.com/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/otankona-su/rpi-child-monitor-cam/refs/heads/main/install.sh | bash
 ```
 
 > 🔧 `install.sh` のURLは実環境に合わせて変更してください  
