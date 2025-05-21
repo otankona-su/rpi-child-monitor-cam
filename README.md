@@ -46,33 +46,32 @@ Raspberry Pi とカメラモジュールを用いた、**子ども見守りカ�
 
 ---
 
-## 🚀 セットアップ方法（1行インストール） / Quick Install
+## 🚀 Quick Install / セットアップ方法（1行インストール）
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/otankona-su/rpi-child-monitor-cam/refs/heads/main/install.sh | bash
 ```
-
-> 🔧 `install.sh` のURLは実環境に合わせて変更してください  
 > Replace the URL with your actual install script path
+> 🔧 `install.sh` のURLは実環境に合わせて変更してください  
 
 ---
 
-## 📍 手動セットアップ手順 / Manual Installation
+## 📍 Manual Installation / 手動セットアップ手順
 
-1. **依存ライブラリのインストール / Install dependencies**
+1. **Install dependencies / 依存ライブラリのインストール**
 
 ```bash
 sudo apt install -y python3-flask python3-picamera2 libcamera-apps
 ```
 
-2. **リポジトリをクローン / Clone the repository**
+2. **Clone the repository** / リポジトリをクローン
 
 ```bash
 git clone https://github.com/otankona-su/rpi-child-monitor-cam.git
 cd child-monitor-camera
 ```
 
-3. **仮想環境の作成（任意） / (Optional) Create virtualenv**
+3. **(Optional) Create virtualenv / 仮想環境の作成（任意）**
 
 ```bash
 python3 -m venv venv
@@ -80,13 +79,13 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-4. **サーバを起動 / Start the server**
+4. **Start the server / サーバを起動**
 
 ```bash
 python server.py
 ```
 
-5. **ブラウザからアクセス / Access via browser**
+5. **Access via browser / ブラウザからアクセス**
 
 ```
 http://raspberrypi.local:5000
@@ -94,7 +93,7 @@ http://raspberrypi.local:5000
 
 ---
 
-## ⚙️ 設定項目（ブラウザで調整可能） / Configurable Parameters via Web UI
+## ⚙️ Configurable Parameters via Web UI / 設定項目（ブラウザで調整可能）
 
 | 項目 / Parameter         | 説明 / Description                                 |
 |--------------------------|--------------------------------------------------|
@@ -102,7 +101,7 @@ http://raspberrypi.local:5000
 | Min Contour Area         | Minimum area to detect an object / ノイズ除去のための最小面積     |
 | Reload Interval (sec)    | Auto reload interval for settings / 設定の再読込間隔       |
 | 視覚通知（ON/OFF）       | Visual alert with screen border / 枠表示による通知         |
-| 通知色 / Alert Color     | Color of the alert border / アラート表示色               |
+| Alert Color / 通知色     | Color of the alert border / アラート表示色               |
 | 通知音アップロード       | `.mp3` Upload custom alert sound / アップロード            |
 
 ---
