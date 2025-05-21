@@ -1,7 +1,9 @@
 # rpi-child-monitor-cam
 # 👶 Child Monitor Camera with Motion Detection
+
 A home baby monitor system built with Raspberry Pi and a camera module.
 Runs on a local network and streams real-time video to smartphones and PCs, with motion-based alerts.
+
 Raspberry Pi とカメラモジュールを用いた、**子ども見守りカメラシステム**です。  
 ローカルネットワーク上で動作し、スマホやPCからリアルタイム映像の閲覧と動作通知を受けることができます。
 ---
