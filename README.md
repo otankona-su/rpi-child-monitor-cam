@@ -32,11 +32,10 @@ Raspberry Pi 起動時に自動でサーバ開始
 <!-- (必要に応じて追加) -->
 
 🚀 セットアップ方法（1行インストール）
-bash
-コピーする
-編集する
+'''bash
 curl -sSL https://example.com/install.sh | bash
 ※ install.sh は仮のURLです。あなたのスクリプトに差し替えてください。
+'''
 
 📝 手動セットアップ手順
 依存ライブラリをインストール:
