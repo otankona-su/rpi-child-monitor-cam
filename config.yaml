@@ -1,0 +1,12 @@
+alert_border: 10
+alert_sound: /usr/share/sounds/alsa/Front_Center.wav
+alert_sound_web: /static/audio/uploads/alert_custom.mp3
+camera_index: 0
+config_reload_interval: 5
+framerate: 30
+highlight_color: '#eb0000'
+highlight_enabled: true
+min_contour_area: 4300
+motion_threshold: 23
+preview_window: false
+resolution: 640x480

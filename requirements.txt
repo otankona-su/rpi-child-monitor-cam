@@ -1,0 +1,9 @@
+# Web サーバー用
+flask
+
+# 画像処理（GUIなし）
+opencv-python-headless
+
+# 設定ファイル読み込み
+pyyaml
+
