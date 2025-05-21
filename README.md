@@ -11,7 +11,7 @@ Raspberry Pi とカメラモジュールを用いた、**子ども見守りカ�
 
 ## 🤩 Features / 特徴
 
-- 📷 **Video Streaming / カメラ映像のストリーミング **
+- 📷 **Video Streaming / カメラ映像のストリーミング**
   - Real-time streaming using Flask, OpenCV, and Picamera2.
   - Flask + OpenCV + Picamera2 によりリアルタイム配信  
 
