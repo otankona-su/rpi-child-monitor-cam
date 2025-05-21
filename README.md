@@ -68,7 +68,7 @@ sudo apt install -y python3-flask python3-picamera2 libcamera-apps
 2. **リポジトリをクローン / Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/child-monitor-camera.git
+git clone https://github.com/otankona-su/rpi-child-monitor-cam.git
 cd child-monitor-camera
 ```
 
