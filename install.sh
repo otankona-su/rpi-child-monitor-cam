@@ -1,7 +1,8 @@
 #!/bin/bash
 set -e
 
-apt install git
+echo "install nessesary packages ..."
+sudo apt install git
 
 echo "📁 プロジェクトを ~/monitoring_project にクローン..."
 cd ~
