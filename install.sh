@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+apt install git
+
 echo "📁 プロジェクトを ~/monitoring_project にクローン..."
 cd ~
 if [ ! -d monitoring_project ]; then
