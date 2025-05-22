@@ -4,7 +4,7 @@ set -e
 echo "install nessesary packages ..."
 sudo apt update
 sudo apt upgrade -y
-sudo apt install git
+sudo apt install  -y git python3-picamera2
 
 echo "📁 プロジェクトを ~/monitoring_project にクローン..."
 cd ~
