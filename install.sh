@@ -2,6 +2,8 @@
 set -e
 
 echo "install nessesary packages ..."
+sudo apt update
+sudo apt upgrade -y
 sudo apt install git
 
 echo "📁 プロジェクトを ~/monitoring_project にクローン..."
