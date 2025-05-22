@@ -100,7 +100,7 @@ http://raspberrypi.local:5000
 | Motion Threshold         | Sensitivity threshold for motion detection / 動体検知のしきい値（感度） |
 | Min Contour Area         | Minimum area to detect an object / ノイズ除去のための最小面積     |
 | Reload Interval (sec)    | Auto reload interval for settings / 設定の再読込間隔       |
-| 視覚通知（ON/OFF）       | Visual alert with screen border / 枠表示による通知         |
+| Visual alert 視覚通知（ON/OFF）       | Visual alert with screen border / 枠表示による通知         |
 | Alert Color / 通知色     | Color of the alert border / アラート表示色               |
 | 通知音アップロード       | `.mp3` Upload custom alert sound / アップロード            |
 
