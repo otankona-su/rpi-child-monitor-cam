@@ -7,7 +7,7 @@ sudo apt install git
 echo "📁 プロジェクトを ~/monitoring_project にクローン..."
 cd ~
 if [ ! -d monitoring_project ]; then
-  git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git monitoring_project
+  git clone https://github.com/otankona-su/rpi-child-monitor-cam.git monitoring_project
 else
   echo "⚠️ monitoring_project ディレクトリはすでに存在します。"
 fi
