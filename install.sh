@@ -19,7 +19,7 @@ cd monitoring_project
 # 以下、前回のインストール手順と同じ -----------------------
 
 echo "🐍 仮想環境作成とパッケージインストール..."
-python3 -m --system-site-packages venv monitoring
+python3 -m venv --system-site-packages monitoring
 source monitoring/bin/activate
 pip install --upgrade pip
 pip install flask opencv-python-headless pyyaml
